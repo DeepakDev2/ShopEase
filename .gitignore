@@ -1,0 +1,81 @@
+# -------------------- FLUTTER RELATED --------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.fvm/
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+lib/generated_plugin_registrant.dart
+# Only ignore pubspec.lock for packages, not apps
+# Uncomment the next line if you're building a library package
+# pubspec.lock
+
+# Android
+android/.gradle/
+android/captures/
+android/key.properties
+android/local.properties
+android/gradlew*
+android/**/GeneratedPluginRegistrant.java
+
+# iOS
+ios/Pods/
+ios/DerivedData/
+ios/Flutter/Flutter.framework
+ios/Flutter/App.framework
+ios/Flutter/flutter_assets/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/.generated/
+ios/**/.symlinks/
+ios/**/xcuserdata/
+ios/**/profile
+
+# Web (if used)
+web/.dart_tool/
+web/build/
+
+
+# -------------------- NODE/EXPRESS SERVER RELATED --------------------
+server/node_modules/
+server/.env
+server/.cache/
+server/.parcel-cache/
+server/dist/
+server/build/
+server/coverage/
+server/logs/
+server/*.log
+server/.eslintcache
+server/.rpt2_cache/
+server/.rts2_cache_*/
+
+# -------------------- SHARED / MISC --------------------
+.env
+.env.test
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# IDEs
+.idea/
+*.iml
+
+# Others
+*.lock-wscript
+.pnpm-debug.log*
+.yarn/*
+.yarnrc.yml
