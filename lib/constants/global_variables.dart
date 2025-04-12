@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package: flutter/material.dart';
+import 'package:amazon/constants/global_keys.dart';
 
-String uri = 'xxxx';
+String uri = GlobalKeys.ip;
 
 class GlobalVariables {
   // COLORS
