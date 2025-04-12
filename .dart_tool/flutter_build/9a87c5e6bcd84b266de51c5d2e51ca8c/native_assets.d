@@ -1,0 +1,1 @@
+ C:\\Users\\deepa\\Documents\\temp\\flutter\\cole\\amazon\\.dart_tool\\flutter_build\\9a87c5e6bcd84b266de51c5d2e51ca8c\\native_assets.yaml: 
